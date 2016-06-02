@@ -1,0 +1,19 @@
+{
+	"name": "sw2/load-sass",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Lukas Povoda",
+			"email": "lupo112@gmail.com"
+		}
+	],
+	"require": {
+		"sw2/load": "~0.9",
+		"leafo/scssphp": "^0.3.3"
+	},
+	"autoload": {
+		"psr-0": {
+			"Sw2\\SassLoad\\": "src/"
+		}
+	}
+}

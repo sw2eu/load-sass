@@ -1,0 +1,3 @@
+This will be documented soon...
+
+See also [LoadJs](https://gitlab.com/nette-extensions/loadjs).
