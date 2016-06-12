@@ -9,11 +9,9 @@
 	],
 	"require": {
 		"sw2eu/load-common": "~0.9",
-		"leafo/scssphp": "^0.3.3"
+		"leafo/scssphp": "^0.6.3"
 	},
 	"autoload": {
-		"psr-0": {
-			"Sw2\\SassLoad\\": "src/"
-		}
+		"classmap": ["src/"]
 	}
 }
