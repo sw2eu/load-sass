@@ -1,18 +1,18 @@
 <?php
 
-namespace Sw2\SassLoad\DI;
+namespace Sw2\LoadSass\DI;
 
 use Nette;
-use Sw2\Load\LoadExtension;
-use Sw2\SassLoad\SassCompiler;
-use Sw2\SassLoad\SassMacros;
+use Sw2\Load\DI\LoadExtension;
+use Sw2\LoadSass\SassCompiler;
+use Sw2\LoadSass\SassMacros;
 
 /**
- * Class SassLoadExtension
+ * Class LoadSassExtension
  *
  * @package Sw2\SassLoad\Di
  */
-class SassLoadExtension extends LoadExtension
+class LoadSassExtension extends LoadExtension
 {
 	/** @var array */
 	public $defaults = [

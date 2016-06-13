@@ -1,11 +1,11 @@
 <?php
 
-namespace Sw2\SassLoad;
+namespace Sw2\LoadSass;
 
 use Leafo\ScssPhp\Compiler;
 use Nette\Caching\Cache;
+use Sw2\Load\DI\LoadExtension;
 use Sw2\Load\ICompiler;
-use Sw2\Load\LoadExtension;
 
 /**
  * Class SassCompiler
