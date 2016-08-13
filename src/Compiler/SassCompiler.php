@@ -55,7 +55,7 @@ class SassCompiler extends BaseCompiler
 		foreach ($sourceFiles as $sourceFile) {
 			$compiler = new Compiler;
 			$compiler->addImportPath(dirname($sourceFile));
-			fwrite($file, $compiler->compile(file_get_contents($sourceFile), dirname($sourceFile)) . "\n");
+			fwrite($file, $compiler->compile(file_get_contents($sourceFile), $sourceFile) . "\n");
 			fflush($file);
 
 			$parsedFiles = array_merge($parsedFiles, $compiler->getParsedFiles());
